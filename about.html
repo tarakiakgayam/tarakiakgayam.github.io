@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Randell G.</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('black004.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+
+    .glass-card {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      padding: 30px;
+      max-width: 850px;
+      margin: 80px auto;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 2px solid rgba(255, 255, 255, 0.2);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 25px;
+      text-shadow: 2px 2px 6px #000;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.8;
+      text-align: justify;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    .hobby-images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 35px;
+    }
+
+    .hobby-images img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 20px;
+      border: 2px solid rgba(255, 255, 255, 0.4);
+      box-shadow:
+        0 0 10px rgba(255, 255, 255, 0.2),
+        0 0 20px rgba(255, 255, 255, 0.1),
+        4px 4px 12px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s ease;
+    }
+
+    .hobby-images img:hover {
+      transform: scale(1.05);
+    }
+
+    .back-button {
+      display: block;
+      margin: 45px auto 0;
+      text-align: center;
+      padding: 12px 28px;
+      font-size: 1em;
+      background-color: white;
+      color: black;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .back-button:hover {
+      background-color: #ccc;
+    }
+
+    @media (max-width: 600px) {
+      .hobby-images img {
+        width: 110px;
+        height: 110px;
+      }
+
+      p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="glass-card">
+    <h1>About Me – Randell G.</h1>
+    <p>
+      I am Randell G., a proud Criminology graduate from the University of the Cordilleras. I enjoy balancing both active and reflective activities in life.
+      <br><br>
+      I'm passionate about playing basketball — it keeps me energized, competitive, and motivated. When I want to relax, I dive into reading **Japanese Manga** as well as **Korean and Chinese Manhwa**. These stories bring imagination and emotional depth to my downtime.
+      <br><br>
+      One cultural practice I hold dear is chewing **betel nut**. It's more than a habit — it’s part of our identity and tradition in **Bontoc, Mountain Province** where I come from. It connects me to my roots and the elders of our community.
+      <br><br>
+      I also love peaceful night walks. The stillness of the night clears my mind and brings a sense of calm I don’t often find during the day.
+    </p>
+
+    <div class="hobby-images">
+      <img src="basketball001.jpg" alt="Playing Basketball" title="Playing Basketball">
+      <img src="Manhwa004.jpg" alt="Reading Manhwa" title="Reading Manga & Manhwa">
+      <img src="beetlenut003.jpg" alt="Chewing Betel Nut" title="Betel Nut – Bontoc Culture">
+      <img src="walking002.jpg" alt="Walking at Night" title="Walking in the Peaceful Night">
+    </div>
+
+    <a href="index.html" class="back-button">← Back to Home</a>
+  </div>
+</body>
+</html>
